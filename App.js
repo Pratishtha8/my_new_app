@@ -9,7 +9,7 @@ export default function App() {
   const callGroqAPI = async () => {
     setResponse("Loading...");
     console.log("Calling Groq with:", input);
-
+//choot
     try {
       const res = await axios.post(
         'https://api.groq.com/openai/v1/chat/completions',
