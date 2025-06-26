@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import { View, Text, TextInput, Button, ScrollView, StyleSheet } from 'react-native';
 import axios from 'axios';
+import { useState } from 'react';
+import { Button, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 
 export default function App() {
   const [input, setInput] = useState('');
   const [response, setResponse] = useState('');
-
+//lund
   const callGroqAPI = async () => {
     setResponse("Loading...");
     console.log("Calling Groq with:", input);
